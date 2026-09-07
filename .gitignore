@@ -1,0 +1,12 @@
+# KiCad local / backup
+*.kicad_prl
+*-backups/
+_autosave*
+*.bak
+*~
+fp-info-cache
+*.lck
+
+# Generated check reports
+erc.rpt
+drc.rpt
