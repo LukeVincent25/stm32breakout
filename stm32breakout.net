@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "E:\\kicad projects\\stm32 breakout board\\stm32breakout\\stm32breakout.kicad_sch")
-		(date "2026-09-07T16:48:50")
+		(date "2026-09-07T20:45:54")
 		(tool "Eeschema 10.0.3")
 		(textvar
 			(name "BOARD") "STM32F103C8T6 Breakout")
@@ -64,6 +64,8 @@
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(fields
 				(field
+					(name "LCSC") "C19702")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -76,6 +78,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C19702")
 			)
 			(property
 				(name "Sheetname")
@@ -97,7 +103,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "1f7f645a-7429-4519-a8b0-4be294e28e5a")
+			(tstamps "4a942ca3-cbca-45ea-9844-cd585ad0cee2")
 			(units
 				(unit
 					(name "A")
@@ -118,6 +124,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C15849")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -130,6 +138,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
 			)
 			(property
 				(name "Sheetname")
@@ -151,7 +163,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c5fd3709-b17b-40ad-9511-f7ace2dad92a")
+			(tstamps "c08aec09-3b93-4fc7-81df-482249d554e3")
 			(units
 				(unit
 					(name "A")
@@ -172,6 +184,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C15849")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -184,6 +198,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
 			)
 			(property
 				(name "Sheetname")
@@ -205,7 +223,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b8a8b2df-6958-4781-b872-4d9d71bfd0d3")
+			(tstamps "4dea9004-fa86-4f03-a00b-b51e50a15c41")
 			(units
 				(unit
 					(name "A")
@@ -226,6 +244,8 @@
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(fields
 				(field
+					(name "LCSC") "C19702")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
@@ -238,6 +258,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C19702")
 			)
 			(property
 				(name "Sheetname")
@@ -259,7 +283,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e6fb0d1d-2cbd-403a-afa8-bfea8582d412")
+			(tstamps "0ce2034b-3fcc-44f4-86f0-888ec053a059")
 			(units
 				(unit
 					(name "A")
@@ -280,6 +304,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -292,6 +318,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -313,7 +343,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "74dccf16-f06c-4453-bb8a-46e83f061593")
+			(tstamps "01f2d6bb-21ce-4ff3-9983-2c5023657e13")
 			(units
 				(unit
 					(name "A")
@@ -334,6 +364,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -346,6 +378,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -367,7 +403,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "77aaaae9-8a99-46d8-a453-b6340b65829d")
+			(tstamps "453053a2-27e0-4ff4-8ec2-721c243c23f9")
 			(units
 				(unit
 					(name "A")
@@ -388,6 +424,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -400,6 +438,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -421,7 +463,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "16ec8419-33e8-4bf8-a52b-76faf7e342d1")
+			(tstamps "b33c45f9-6285-4f12-8c06-b4d1c9e6820d")
 			(units
 				(unit
 					(name "A")
@@ -442,6 +484,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -454,6 +498,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -475,7 +523,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2bf4b598-fef1-40af-a0dd-bc22ee1fdbb1")
+			(tstamps "e03f9c28-14fb-4711-9627-75df399af355")
 			(units
 				(unit
 					(name "A")
@@ -496,6 +544,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C15849")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -508,6 +558,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
 			)
 			(property
 				(name "Sheetname")
@@ -529,7 +583,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0a68c769-1419-4ed0-b0af-a035cd0febd4")
+			(tstamps "470b2044-3e54-4d7e-a74b-393fcfb98a8b")
 			(units
 				(unit
 					(name "A")
@@ -550,6 +604,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -562,6 +618,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -583,7 +643,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ba9f22b4-40ec-4662-b980-45245d68eea5")
+			(tstamps "95ee71fa-e237-49e3-9f8a-71a544faee4f")
 			(units
 				(unit
 					(name "A")
@@ -604,6 +664,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C1645")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -616,6 +678,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C1645")
 			)
 			(property
 				(name "Sheetname")
@@ -637,7 +703,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b3121fae-05c1-475f-a0d2-3e8197814c07")
+			(tstamps "5f1d9a2b-8765-4b04-a4a4-e5ee22b91d4d")
 			(units
 				(unit
 					(name "A")
@@ -658,6 +724,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C1645")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -670,6 +738,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C1645")
 			)
 			(property
 				(name "Sheetname")
@@ -691,7 +763,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d1dbb783-e369-4c9d-adbb-55dff601b742")
+			(tstamps "ff832dd5-6de4-4b50-a377-be2e8ce1ca80")
 			(units
 				(unit
 					(name "A")
@@ -712,6 +784,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C1647")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -724,6 +798,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C1647")
 			)
 			(property
 				(name "Sheetname")
@@ -745,7 +823,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "63c48e92-befc-4a2d-b54d-3a6510c0102d")
+			(tstamps "9c3c3577-d211-425a-850b-df6f7c9bd050")
 			(units
 				(unit
 					(name "A")
@@ -766,6 +844,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C1647")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -778,6 +858,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C1647")
 			)
 			(property
 				(name "Sheetname")
@@ -799,7 +883,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "53591be6-a524-4a04-af05-b58d6833c2ed")
+			(tstamps "616ce0b2-32d1-40ee-97c8-0015267a57cd")
 			(units
 				(unit
 					(name "A")
@@ -820,6 +904,8 @@
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C14663")
+				(field
 					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -832,6 +918,10 @@
 				(lib "Device")
 				(part "C")
 				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C14663")
 			)
 			(property
 				(name "Sheetname")
@@ -853,7 +943,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b47db07b-d2fa-42de-8c4a-6a8e18fbd041")
+			(tstamps "6a41ea6a-f7f0-43e6-8945-d0b3c8f8e020")
 			(units
 				(unit
 					(name "A")
@@ -874,6 +964,8 @@
 			(footprint "LED_SMD:LED_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C72043")
+				(field
 					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -886,6 +978,10 @@
 				(lib "Device")
 				(part "LED")
 				(description "Light emitting diode")
+			)
+			(property
+				(name "LCSC")
+				(value "C72043")
 			)
 			(property
 				(name "Sheetname")
@@ -907,7 +1003,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c2344332-9966-4dc9-bf43-0095f6d71f42")
+			(tstamps "4b5e26b2-4a19-4af7-8fe4-eaf84cf323d2")
 			(units
 				(unit
 					(name "A")
@@ -928,6 +1024,8 @@
 			(footprint "LED_SMD:LED_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C72041")
+				(field
 					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -940,6 +1038,10 @@
 				(lib "Device")
 				(part "LED")
 				(description "Light emitting diode")
+			)
+			(property
+				(name "LCSC")
+				(value "C72041")
 			)
 			(property
 				(name "Sheetname")
@@ -961,7 +1063,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "03fe8714-4529-4751-a111-1106a5f1faf2")
+			(tstamps "c98cec07-3338-4d8c-9f18-6df3c2bf9c92")
 			(units
 				(unit
 					(name "A")
@@ -982,6 +1084,8 @@
 			(footprint "Inductor_SMD:L_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C23611")
+				(field
 					(name "Footprint") "Inductor_SMD:L_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -994,6 +1098,10 @@
 				(lib "Device")
 				(part "FerriteBead")
 				(description "Ferrite bead")
+			)
+			(property
+				(name "LCSC")
+				(value "C23611")
 			)
 			(property
 				(name "Sheetname")
@@ -1015,7 +1123,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "09bead99-9427-49bd-8c2f-b1ea1ee87b99")
+			(tstamps "f374ece9-094e-4bfb-b812-991286ceec9e")
 			(units
 				(unit
 					(name "A")
@@ -1072,7 +1180,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a403ca5b-2a3a-458f-b358-2c7aedb7e2bf")
+			(tstamps "e877034a-b4ec-4a20-8337-75d444659fdc")
 			(units
 				(unit
 					(name "A")
@@ -1122,7 +1230,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c5479bd4-02a7-4d10-9b30-f9fe81c13e11")
+			(tstamps "a531fe43-77e0-454e-8bd7-e61389f62130")
 			(units
 				(unit
 					(name "A")
@@ -1172,7 +1280,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5bb45f82-e292-4e40-8648-40bcc161b9af")
+			(tstamps "cc932f4e-c595-4dfc-99d0-d8e7037b235c")
 			(units
 				(unit
 					(name "A")
@@ -1222,7 +1330,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6eea0d3a-8c9c-48d8-9678-cebdcfd4f08a")
+			(tstamps "37ce69d9-40b5-4f3b-aece-9db0b5bc14ef")
 			(units
 				(unit
 					(name "A")
@@ -1236,6 +1344,8 @@
 			(footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
 			(fields
 				(field
+					(name "LCSC") "C165948")
+				(field
 					(name "Footprint") "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
 				(field
 					(name "Datasheet")
@@ -1248,6 +1358,10 @@
 				(lib "Connector")
 				(part "USB_C_Receptacle_USB2.0_16P")
 				(description "USB 2.0-only 16P Type-C Receptacle connector")
+			)
+			(property
+				(name "LCSC")
+				(value "C165948")
 			)
 			(property
 				(name "Sheetname")
@@ -1269,7 +1383,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d74e5c70-9dff-4368-abd7-a2be189aaf40")
+			(tstamps "3b3db72d-a601-4a63-8c8f-1702e52ad820")
 			(units
 				(unit
 					(name "A")
@@ -1335,6 +1449,8 @@
 			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical")
 			(fields
 				(field
+					(name "LCSC") "C124378")
+				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -1347,6 +1463,10 @@
 				(lib "Connector_Generic")
 				(part "Conn_01x20")
 				(description "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "LCSC")
+				(value "C124378")
 			)
 			(property
 				(name "Sheetname")
@@ -1368,7 +1488,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "444add1a-62bb-4262-8e7f-6d19d777824e")
+			(tstamps "d27d9593-fa42-4e06-b1b7-25b07490e731")
 			(units
 				(unit
 					(name "A")
@@ -1443,6 +1563,8 @@
 			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical")
 			(fields
 				(field
+					(name "LCSC") "C124378")
+				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -1455,6 +1577,10 @@
 				(lib "Connector_Generic")
 				(part "Conn_01x20")
 				(description "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "LCSC")
+				(value "C124378")
 			)
 			(property
 				(name "Sheetname")
@@ -1476,7 +1602,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "36547a4e-c9a8-4c96-ae9a-69c9c3a4b3cf")
+			(tstamps "ec267df0-9bf7-44bd-a9f3-92822144e10d")
 			(units
 				(unit
 					(name "A")
@@ -1551,6 +1677,8 @@
 			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
 			(fields
 				(field
+					(name "LCSC") "C124376")
+				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
@@ -1563,6 +1691,10 @@
 				(lib "Connector_Generic")
 				(part "Conn_01x05")
 				(description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "LCSC")
+				(value "C124376")
 			)
 			(property
 				(name "Sheetname")
@@ -1584,7 +1716,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c2bd86b4-c42c-491a-9b63-ac9882de373c")
+			(tstamps "f3107a98-77aa-4639-aaac-19251655f4aa")
 			(units
 				(unit
 					(name "A")
@@ -1614,6 +1746,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C23181")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1626,6 +1760,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C23181")
 			)
 			(property
 				(name "Sheetname")
@@ -1647,7 +1785,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "eb73ab4b-2ede-49a9-ae7c-171f5afa42ac")
+			(tstamps "aecdb285-757b-4eb7-9db5-4fe0b57c6e0e")
 			(units
 				(unit
 					(name "A")
@@ -1668,6 +1806,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C23181")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1680,6 +1820,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C23181")
 			)
 			(property
 				(name "Sheetname")
@@ -1701,7 +1845,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8b60ac05-1c3f-4a23-9bdf-330ba7491a7b")
+			(tstamps "4b26c4e9-056c-4a52-a5da-4e97991e5dad")
 			(units
 				(unit
 					(name "A")
@@ -1722,6 +1866,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C17561")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1734,6 +1880,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17561")
 			)
 			(property
 				(name "Sheetname")
@@ -1755,7 +1905,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "776834b7-b309-42b2-b40b-55de7a21f1d0")
+			(tstamps "a2bcb765-2b7a-454a-8b2a-e85497925613")
 			(units
 				(unit
 					(name "A")
@@ -1776,6 +1926,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C17561")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1788,6 +1940,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17561")
 			)
 			(property
 				(name "Sheetname")
@@ -1809,7 +1965,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8a482cdc-1fa4-4333-8972-ddcaf58d0fbf")
+			(tstamps "9b0c7283-2c84-4b09-93c3-7affd0b7484c")
 			(units
 				(unit
 					(name "A")
@@ -1830,6 +1986,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C25804")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1842,6 +2000,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
 			)
 			(property
 				(name "Sheetname")
@@ -1863,7 +2025,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "31807c23-c172-408d-8145-b4e720d9d722")
+			(tstamps "4aef66cf-10de-4b18-9226-99ea30715a72")
 			(units
 				(unit
 					(name "A")
@@ -1884,6 +2046,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C25804")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1896,6 +2060,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
 			)
 			(property
 				(name "Sheetname")
@@ -1917,7 +2085,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c1e69d91-21e5-4d13-a995-970d8832dcd6")
+			(tstamps "9397f278-1600-4034-8792-1c7dfdbc9a67")
 			(units
 				(unit
 					(name "A")
@@ -1938,6 +2106,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C25804")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -1950,6 +2120,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C25804")
 			)
 			(property
 				(name "Sheetname")
@@ -1971,7 +2145,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "96ea900d-9135-47cd-a562-cf6258b1b97c")
+			(tstamps "299dbee6-efb4-4623-b868-211b52db1d47")
 			(units
 				(unit
 					(name "A")
@@ -1992,6 +2166,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C21190")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2004,6 +2180,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C21190")
 			)
 			(property
 				(name "Sheetname")
@@ -2025,7 +2205,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5a668ded-14c4-439a-87e9-55ea0b0a0a05")
+			(tstamps "331cd98a-4954-40eb-8752-a5faf05d20b5")
 			(units
 				(unit
 					(name "A")
@@ -2046,6 +2226,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C21190")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2058,6 +2240,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C21190")
 			)
 			(property
 				(name "Sheetname")
@@ -2079,7 +2265,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "9981998b-b3b5-4101-8ca8-41e60fee4255")
+			(tstamps "1e14fe47-d2c9-41af-a4df-1ab6e5c373af")
 			(units
 				(unit
 					(name "A")
@@ -2100,6 +2286,8 @@
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
+					(name "LCSC") "C25803")
+				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
 				(field
 					(name "Datasheet")
@@ -2112,6 +2300,10 @@
 				(lib "Device")
 				(part "R")
 				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C25803")
 			)
 			(property
 				(name "Sheetname")
@@ -2133,7 +2325,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a7d24620-c9c8-4744-bda4-f19cc3b84106")
+			(tstamps "277fe742-1ca1-4524-b010-86eb9bde0b10")
 			(units
 				(unit
 					(name "A")
@@ -2154,6 +2346,8 @@
 			(footprint "Button_Switch_SMD:SW_SPST_TL3342")
 			(fields
 				(field
+					(name "LCSC") "C318884")
+				(field
 					(name "Footprint") "Button_Switch_SMD:SW_SPST_TL3342")
 				(field
 					(name "Datasheet")
@@ -2166,6 +2360,10 @@
 				(lib "Switch")
 				(part "SW_Push")
 				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "LCSC")
+				(value "C318884")
 			)
 			(property
 				(name "Sheetname")
@@ -2183,7 +2381,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "90718013-2157-44fe-8bd1-68ea0e97523a")
+			(tstamps "5cc9b203-dbbd-4162-b0bd-c2d71b5d2024")
 			(units
 				(unit
 					(name "A")
@@ -2204,6 +2402,8 @@
 			(footprint "Button_Switch_SMD:SW_SPST_TL3342")
 			(fields
 				(field
+					(name "LCSC") "C318884")
+				(field
 					(name "Footprint") "Button_Switch_SMD:SW_SPST_TL3342")
 				(field
 					(name "Datasheet")
@@ -2216,6 +2416,10 @@
 				(lib "Switch")
 				(part "SW_Push")
 				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "LCSC")
+				(value "C318884")
 			)
 			(property
 				(name "Sheetname")
@@ -2233,7 +2437,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a3338060-c04a-40cf-817d-4b22a3be9eea")
+			(tstamps "5b8376fa-e229-459b-a2b5-d97bb2e2fd31")
 			(units
 				(unit
 					(name "A")
@@ -2254,6 +2458,8 @@
 			(footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
 			(fields
 				(field
+					(name "LCSC") "C8734")
+				(field
 					(name "Footprint") "Package_QFP:LQFP-48_7x7mm_P0.5mm")
 				(field
 					(name "Datasheet")
@@ -2266,6 +2472,10 @@
 				(lib "MCU_ST_STM32F1")
 				(part "STM32F103C8Tx")
 				(description "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48")
+			)
+			(property
+				(name "LCSC")
+				(value "C8734")
 			)
 			(property
 				(name "Sheetname")
@@ -2287,7 +2497,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c3e1b32b-f026-479e-9a5e-aaab15b25040")
+			(tstamps "6232e9e4-c1b0-4e4c-acac-5126eb9aa387")
 			(units
 				(unit
 					(name "A")
@@ -2446,6 +2656,8 @@
 			(footprint "Package_TO_SOT_SMD:SOT-23-5")
 			(fields
 				(field
+					(name "LCSC") "C51118")
+				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
 				(field
 					(name "Datasheet")
@@ -2458,6 +2670,10 @@
 				(lib "Regulator_Linear")
 				(part "AP2112K-3.3")
 				(description "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5")
+			)
+			(property
+				(name "LCSC")
+				(value "C51118")
 			)
 			(property
 				(name "Sheetname")
@@ -2479,7 +2695,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ede86b3c-2d4c-47c5-bcd7-db662f9a0def")
+			(tstamps "bd4284ba-81a0-4520-8a65-6d725f50d874")
 			(units
 				(unit
 					(name "A")
@@ -2509,6 +2725,8 @@
 			(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
 			(fields
 				(field
+					(name "LCSC") "C9002")
+				(field
 					(name "Footprint") "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
 				(field
 					(name "Datasheet")
@@ -2521,6 +2739,10 @@
 				(lib "Device")
 				(part "Crystal_GND24")
 				(description "Four pin crystal, GND on pins 2 and 4")
+			)
+			(property
+				(name "LCSC")
+				(value "C9002")
 			)
 			(property
 				(name "Sheetname")
@@ -2542,7 +2764,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6d82ca54-ed5f-4a75-9a00-e5d3ffdb16c5")
+			(tstamps "2caab555-9198-4972-b12f-a29e9f9aad6b")
 			(units
 				(unit
 					(name "A")
@@ -2569,6 +2791,8 @@
 			(footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
 			(fields
 				(field
+					(name "LCSC") "C32346")
+				(field
 					(name "Footprint") "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
 				(field
 					(name "Datasheet")
@@ -2581,6 +2805,10 @@
 				(lib "Device")
 				(part "Crystal")
 				(description "Two pin crystal")
+			)
+			(property
+				(name "LCSC")
+				(value "C32346")
 			)
 			(property
 				(name "Sheetname")
@@ -2602,7 +2830,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0c87d206-997a-4785-8bce-e06cc71e1b44")
+			(tstamps "8c4ae3c3-2f25-40b5-8144-15ba12363bb0")
 			(units
 				(unit
 					(name "A")

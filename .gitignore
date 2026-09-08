@@ -10,3 +10,10 @@ fp-info-cache
 # Generated check reports
 erc.rpt
 drc.rpt
+stm32breakout_drc_violations.json
+
+# Local editor / Python
+.history/
+tools/__pycache__/
+__pycache__/
+*.pyc

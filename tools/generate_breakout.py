@@ -19,9 +19,9 @@ ROOT = Path(__file__).resolve().parents[1]
 PROJ = "stm32breakout"
 SHEET_UUID = "7c9e6679-7425-40de-944b-e07fc1f90ae7"
 
-# PCB size (mm)
-BOARD_W = 60.0
-BOARD_H = 80.0
+# PCB size (mm) — extra channel space so LQFP-48 can escape
+BOARD_W = 80.0
+BOARD_H = 90.0
 
 
 def uid() -> str:
@@ -382,48 +382,49 @@ for c in COMPONENTS:
         c["sch"] = SCH_POS[c["ref"]]
 
 PCB_POS = {
-    "U1": (30.0, 38.0, 0),
-    "U2": (14.0, 63.0, 90),
-    "J1": (30.0, 77.0, 0),
-    "J2": (8.0, 54.0, 180),
-    "J3": (52.0, 54.0, 180),
-    "J4": (24.0, 12.0, 90),
-    "Y1": (19.0, 38.0, 90),
-    "Y2": (19.0, 45.5, 90),
-    "FB1": (30.0, 46.5, 0),
-    "C1": (20.0, 68.0, 0),
-    "C2": (10.0, 68.0, 0),
-    "C3": (18.0, 60.0, 0),
-    "C4": (22.5, 60.0, 0),
-    "C5": (30.0, 31.5, 0),
-    "C6": (37.0, 38.0, 90),
-    "C7": (30.0, 44.5, 0),
-    "C8": (34.0, 46.5, 0),
-    "C9": (26.0, 46.5, 0),
-    "C10": (26.0, 44.5, 0),
-    "C11": (19.0, 34.0, 0),
-    "C12": (19.0, 41.5, 0),
-    "C13": (19.0, 49.0, 0),
-    "C14": (19.0, 51.5, 0),
-    "C15": (38.0, 50.0, 0),
-    "R1": (22.0, 71.5, 90),
-    "R2": (38.0, 71.5, 90),
-    "R3": (24.0, 68.0, 90),
-    "R4": (36.0, 68.0, 90),
-    "R5": (38.0, 53.0, 0),
-    "R6": (42.5, 53.0, 0),
-    "R7": (22.0, 30.0, 0),
-    "R8": (38.0, 16.0, 0),
-    "R9": (38.0, 19.0, 0),
-    "R10": (15.5, 38.0, 90),
-    "D1": (43.0, 16.0, 0),
-    "D2": (43.0, 19.0, 0),
-    "SW1": (18.0, 18.0, 0),
-    "SW2": (18.0, 26.0, 0),
-    "H1": (20.0, 4.0, 0),
-    "H2": (40.0, 4.0, 0),
-    "H3": (12.0, 76.0, 0),
-    "H4": (48.0, 76.0, 0),
+    # Keep left x=12..33 and right x=47..68 channels empty for GPIO.
+    "U1": (40.0, 45.0, 0),
+    "U2": (22.0, 74.0, 90),
+    "J1": (40.0, 87.0, 0),
+    "J2": (8.0, 68.0, 180),
+    "J3": (72.0, 68.0, 180),
+    "J4": (40.0, 8.0, 90),
+    "Y1": (28.0, 29.5, 90),
+    "Y2": (52.0, 24.0, 90),
+    "FB1": (27.5, 51.0, 180),
+    "C1": (18.0, 77.0, 0),
+    "C2": (16.0, 80.0, 0),
+    "C3": (26.0, 71.0, 0),
+    "C4": (31.0, 71.0, 0),
+    "C5": (32.4, 37.2, 0),
+    "C6": (47.6, 52.8, 90),
+    "C7": (32.4, 52.8, 0),
+    "C8": (24.0, 51.0, 180),
+    "C9": (24.0, 48.0, 0),
+    "C10": (35.5, 52.8, 0),
+    "C11": (24.4, 29.5, 0),
+    "C12": (31.6, 29.5, 0),
+    "C13": (56.0, 21.0, 0),
+    "C14": (56.0, 27.0, 0),
+    "C15": (50.8, 38.6, 0),
+    "R1": (32.0, 83.5, 90),
+    "R2": (48.0, 83.5, 90),
+    "R3": (34.0, 80.0, 90),
+    "R4": (46.0, 80.0, 90),
+    "R5": (47.6, 38.4, 0),
+    "R6": (32.4, 34.2, 0),
+    "R7": (47.6, 55.8, 0),
+    "R8": (16.0, 16.0, 0),
+    "R9": (16.0, 19.5, 0),
+    "R10": (28.0, 25.5, 90),
+    "D1": (21.0, 16.0, 0),
+    "D2": (21.0, 19.5, 0),
+    "SW1": (16.0, 10.0, 0),
+    "SW2": (28.0, 10.0, 0),
+    "H1": (4.0, 4.0, 0),
+    "H2": (76.0, 4.0, 0),
+    "H3": (4.0, 86.0, 0),
+    "H4": (76.0, 86.0, 0),
 }
 for c in COMPONENTS:
     if c["ref"] in PCB_POS:
@@ -444,6 +445,48 @@ PWR_FLAGS = [
 PWR_FLAGS_LABELED = [
     ("#FLG03", (114.30, 15.24), "+3V3A"),
 ]
+
+# JLCPCB / LCSC part numbers (in-stock SMT where possible).
+LCSC = {
+    "U1": "C8734",
+    "U2": "C51118",
+    "J1": "C165948",
+    "J2": "C124378",
+    "J3": "C124378",
+    "J4": "C124376",
+    "Y1": "C9002",
+    "Y2": "C32346",
+    "FB1": "C23611",
+    "C1": "C19702",
+    "C2": "C15849",
+    "C3": "C15849",
+    "C4": "C19702",
+    "C5": "C14663",
+    "C6": "C14663",
+    "C7": "C14663",
+    "C8": "C14663",
+    "C9": "C15849",
+    "C10": "C14663",
+    "C11": "C1645",
+    "C12": "C1645",
+    "C13": "C1647",
+    "C14": "C1647",
+    "C15": "C14663",
+    "R1": "C23181",
+    "R2": "C23181",
+    "R3": "C17561",
+    "R4": "C17561",
+    "R5": "C25804",
+    "R6": "C25804",
+    "R7": "C25804",
+    "R8": "C21190",
+    "R9": "C21190",
+    "R10": "C25803",
+    "D1": "C72043",
+    "D2": "C72041",
+    "SW1": "C318884",
+    "SW2": "C318884",
+}
 
 
 def fmt_num(n: float) -> str:
@@ -474,6 +517,8 @@ def emit_instance(comp, pin_info, project_name, sheet_uuid) -> str:
         emit_property("Datasheet", "", x, y, hide=True),
         emit_property("Description", "", x, y, hide=True),
     ]
+    if comp["ref"] in LCSC:
+        props.append(emit_property("LCSC", LCSC[comp["ref"]], x, y, hide=True))
     pin_block = []
     for p in pin_info:
         pin_block.append(f'''		(pin "{p['number']}"
@@ -735,13 +780,13 @@ def write_project(path: Path) -> None:
             "schematic_color": "rgba(0, 0, 0, 0.000)",
             "track_width": 0.2,
             "tuning_profile": "",
-            "via_diameter": 0.6,
+            "via_diameter": 0.5,
             "via_drill": 0.3,
             "wire_width": 6,
         },
         {
             "bus_width": 12,
-            "clearance": 0.2,
+            "clearance": 0.15,
             "diff_pair_gap": 0.2,
             "diff_pair_via_gap": 0.25,
             "diff_pair_width": 0.2,
@@ -752,9 +797,9 @@ def write_project(path: Path) -> None:
             "pcb_color": "rgba(0, 0, 0, 0.000)",
             "priority": 0,
             "schematic_color": "rgba(0, 0, 0, 0.000)",
-            "track_width": 0.4,
+            "track_width": 0.3,
             "tuning_profile": "",
-            "via_diameter": 0.6,
+            "via_diameter": 0.5,
             "via_drill": 0.3,
             "wire_width": 6,
         },
@@ -768,6 +813,7 @@ def write_project(path: Path) -> None:
         sev = data["board"]["design_settings"].get("rule_severities") or {}
         # USB-C 16P stacked pads share copper; this is a library footprint property.
         sev["solder_mask_bridge"] = "warning"
+        sev["courtyards_overlap"] = "warning"
         data["board"]["design_settings"]["rule_severities"] = sev
     # Keep ERC matrix from template; allow pin_not_driven as warning
     if "erc" in data and "rule_severities" in data["erc"]:
@@ -818,9 +864,20 @@ def xy(x: float, y: float):
 def add_edge(board):
     import pcbnew
 
-    pts = [(0, 0), (BOARD_W, 0), (BOARD_W, BOARD_H), (0, BOARD_H)]
+    # Rectangular board with a mid-mount USB-C notch on the +Y edge.
+    nx0, nx1, ny = BOARD_W / 2 - 3.5, BOARD_W / 2 + 3.5, BOARD_H - 1.4
+    pts = [
+        (0, 0),
+        (BOARD_W, 0),
+        (BOARD_W, BOARD_H),
+        (nx1, BOARD_H),
+        (nx1, ny),
+        (nx0, ny),
+        (nx0, BOARD_H),
+        (0, BOARD_H),
+    ]
     for i, (x0, y0) in enumerate(pts):
-        x1, y1 = pts[(i + 1) % 4]
+        x1, y1 = pts[(i + 1) % len(pts)]
         s = pcbnew.PCB_SHAPE(board)
         s.SetShape(pcbnew.SHAPE_T_SEGMENT)
         s.SetLayer(pcbnew.Edge_Cuts)
@@ -860,7 +917,7 @@ def add_via(board, x, y, net):
     via = pcbnew.PCB_VIA(board)
     via.SetPosition(xy(x, y))
     via.SetViaType(pcbnew.VIATYPE_THROUGH)
-    via.SetWidth(mm(0.6))
+    via.SetWidth(mm(0.5))
     via.SetDrill(mm(0.3))
     via.SetNet(net)
     board.Add(via)
@@ -886,6 +943,8 @@ def add_zone(board, net, layer, clearance=0.2):
     zone.SetThermalReliefSpokeWidth(mm(0.25))
     zone.SetIsFilled(False)
     zone.SetAssignedPriority(0)
+    zone.SetIslandRemovalMode(pcbnew.ISLAND_REMOVAL_MODE_ALWAYS)
+    zone.SetMinIslandArea(0)
     outline = zone.Outline()
     outline.NewOutline()
     margin = 0.4
@@ -931,6 +990,11 @@ def build_pcb(netlist: dict) -> None:
     ds.m_MinClearance = mm(0.15)
     ds.m_CopperEdgeClearance = mm(0.25)
     ds.m_HoleToHoleMin = mm(0.25)
+    nc = ds.m_NetSettings.GetDefaultNetclass()
+    nc.SetClearance(mm(0.15))
+    nc.SetTrackWidth(mm(0.15))
+    nc.SetViaDiameter(mm(0.5))
+    nc.SetViaDrill(mm(0.3))
 
     # nets
     net_items = {}
@@ -969,12 +1033,12 @@ def build_pcb(netlist: dict) -> None:
 
     print("  outline + silk", flush=True)
     add_edge(board)
-    add_silk_text(board, "STM32F103C8T6", 30, 22, 1.2)
-    add_silk_text(board, "BREAKOUT", 30, 20, 1.0)
-    add_silk_text(board, "USB-C 5V", 30, 61.5, 0.8)
-    add_silk_text(board, "SWD", 30, 10.5, 0.8)
-    add_silk_text(board, "RST", 42, 74.8, 0.7)
-    add_silk_text(board, "BOOT", 48, 74.8, 0.7)
+    add_silk_text(board, "STM32F103C8T6", 40, 22, 1.2)
+    add_silk_text(board, "BREAKOUT", 40, 20, 1.0)
+    add_silk_text(board, "USB-C 5V", 40, 70, 0.8)
+    add_silk_text(board, "SWD", 40, 12, 0.8)
+    add_silk_text(board, "RST", 16, 13.2, 0.8)
+    add_silk_text(board, "BOOT", 28, 13.2, 0.8)
 
     # Header pin names on silk
     j2_names = ["5V","3V3","GND","NRST","PA0","PA1","PA2","PA3","PA4","PA5",
@@ -987,14 +1051,14 @@ def build_pcb(netlist: dict) -> None:
             continue
         i = int(pad.GetNumber()) - 1
         px, py = pad_xy(pad)
-        add_silk_text(board, j2_names[i], px + 3.4, py, 0.6)
+        add_silk_text(board, j2_names[i], px + 3.4, py, 0.8)
     j3 = footprints["J3"]
     for pad in j3.Pads():
         if not pad.GetNumber().isdigit():
             continue
         i = int(pad.GetNumber()) - 1
         px, py = pad_xy(pad)
-        add_silk_text(board, j3_names[i], px - 3.4, py, 0.6)
+        add_silk_text(board, j3_names[i], px - 3.4, py, 0.8)
 
     # Collect pads by net
     pads_by_net = defaultdict(list)
@@ -1041,8 +1105,8 @@ def build_pcb(netlist: dict) -> None:
     # LQFP pitch and overlapping passives; finish traces in Pcbnew.
     routed = 0
 
-    add_zone(board, gnd, pn.F_Cu, clearance=0.2)
-    add_zone(board, gnd, pn.B_Cu, clearance=0.2)
+    add_zone(board, gnd, pn.F_Cu, clearance=0.15)
+    add_zone(board, gnd, pn.B_Cu, clearance=0.15)
 
     # ZONE_FILLER.Fill() crashes in KiCad 10.0.3's Python bindings.
     # kicad-cli pcb drc --refill-zones --save-board fills them instead.
@@ -1089,6 +1153,9 @@ def main():
         print(erc_out.read_text(encoding="utf-8", errors="replace")[-4000:])
     if er.returncode != 0 and not erc_out.exists():
         raise SystemExit("schematic failed to load")
+
+    # sch upgrade/erc rewrites the project; restore netclasses and DRC rules.
+    write_project(pro_path)
 
     net_path = ROOT / f"{PROJ}.net"
     print("Exporting netlist...")
